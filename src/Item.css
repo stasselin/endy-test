@@ -1,0 +1,101 @@
+p {
+  display: inline;
+}
+
+.item {
+  display: flex;
+  border-bottom: 0.1rem solid lightgray;
+  border-top: 0.1rem solid lightgray;
+  padding: 1rem 0;
+}
+
+.item--img {
+  width: 10rem;
+  height: auto;
+  max-height: 5rem;
+}
+
+.item__deleted {
+  display: flex;
+  border-bottom: 0.1rem solid lightgray;
+  border-top: 0.1rem solid lightgray;
+  padding: 1rem 0;
+}
+
+.item__deleted p,
+.item__deleted img,
+.item__deleted .item--but {
+  opacity: 0.5;
+}
+
+p,
+img {
+  margin: auto 2rem;
+}
+
+button {
+  margin: auto 0.8rem;
+}
+
+.item--name {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 7rem;
+}
+
+.item--ingridients {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item--number {
+  margin: auto 0.4rem;
+}
+
+.item--but {
+  height: 1.7rem;
+  width: 1.7rem;
+  font-size: 1.2rem;
+  color: red;
+  background-color: transparent;
+  border: 0.12rem solid red;
+  border-radius: 50%;
+  text-decoration: none;
+  outline: none;
+}
+.item--but[disabled] {
+  opacity: 0.5;
+}
+
+.item--but__del {
+  font-size: 1rem;
+  padding: 0.4rem 0.7rem;
+  color: lightgray;
+  background-color: transparent;
+  border: 0.12rem solid lightgray;
+  border-radius: 1rem;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.item--but__del:hover {
+  color: red;
+  border-color: red;
+}
+
+.item--but__back {
+  opacity: 1;
+  font-size: 1rem;
+  padding: 0.4rem 0.7rem;
+  color: white;
+  background-color: red;
+  border: 0.12rem solid red;
+  border-radius: 1rem;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}

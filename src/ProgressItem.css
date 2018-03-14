@@ -1,0 +1,23 @@
+.progressItem {
+  display: flex;
+  margin: 1rem auto;
+}
+.progressBar {
+  width: 100%;
+  height: 2rem;
+  background-color: grey;
+  display: inline;
+  border-radius: 0.4rem;
+}
+
+.progression {
+  width: 20%;
+  height: 2rem;
+  background-color: green;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+p {
+  display: inline;
+}
